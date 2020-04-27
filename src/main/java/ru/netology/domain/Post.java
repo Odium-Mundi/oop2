@@ -1,4 +1,4 @@
-package domain; 
+package ru.netology.domain;
 
 import java.io.File;
 import java.util.Date;
