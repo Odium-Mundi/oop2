@@ -3,8 +3,8 @@ package ru.netology.domain;
 public class CommentsInfo {
     private int count;
     private boolean canPost;
-    private boolean can_close; //может ли закрыть комменты
-    private boolean can_open; //есть ли доступ к открытию комментов
+    private boolean canClose; //может ли закрыть комменты
+    private boolean canOpen; //есть ли доступ к открытию комментов
 
     public int getCount() {
         return count;
@@ -22,19 +22,19 @@ public class CommentsInfo {
         this.canPost = canPost;
     }
 
-    public boolean isCan_close() {
-        return can_close;
+    public boolean isCanClose() {
+        return canClose;
     }
 
-    public void setCan_close(boolean can_close) {
-        this.can_close = can_close;
+    public void setCanClose(boolean canClose) {
+        this.canClose = canClose;
     }
 
-    public boolean isCan_open() {
-        return can_open;
+    public boolean isCanOpen() {
+        return canOpen;
     }
 
-    public void setCan_open(boolean can_open) {
-        this.can_open = can_open;
+    public void setCanOpen(boolean canOpen) {
+        this.canOpen = canOpen;
     }
 }
