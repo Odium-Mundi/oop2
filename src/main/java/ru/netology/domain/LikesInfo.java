@@ -1,15 +1,15 @@
 package ru.netology.domain;
 
 public class LikesInfo {
-    private boolean pressed; //поставлен ли лайк
+    private boolean isLiked; //поставлен ли лайк
     private int count;
 
-    public boolean isPressed() {
-        return pressed;
+    public boolean isLiked() {
+        return isLiked;
     }
 
-    public void setPressed(boolean pressed) {
-        this.pressed = pressed;
+    public void setLiked(boolean isLiked) {
+        this.isLiked = isLiked;
     }
 
     public int getCount() {
