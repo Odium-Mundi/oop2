@@ -13,6 +13,15 @@ public class Post {
     private String descriptionPost;
     private int countViews;
     private File file; //вложенный файл (картинка, статья)
+    private String nameOwner;
+    
+    public String getNameOwner() {
+        return descriptionPost;
+    }
+
+    public void setNameOwner(String nameOwner) {
+        this.nameOwner = nameOwner;
+    }
 
     public int getId() {
         return id;
