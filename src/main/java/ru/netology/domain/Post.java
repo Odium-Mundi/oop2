@@ -6,7 +6,6 @@ import java.util.Date;
 public class Post {
     private int id;
     private CommentsInfo commentsInfo;
-    private OwnerPostDescription ownerPostDescription;
     private LikesInfo likesInfo;
     private RepostsInfo repostsInfo;
     private Date datePosts;
@@ -85,14 +84,6 @@ public class Post {
 
     public void setFile(File file) {
         this.file = file;
-    }
-
-    public OwnerPostDescription getOwnerPostDescription() {
-        return ownerPostDescription;
-    }
-
-    public void setOwnerPostDescription(OwnerPostDescription ownerPostDescription) {
-        this.ownerPostDescription = ownerPostDescription;
     }
 }
 
