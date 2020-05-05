@@ -15,7 +15,7 @@ public class Post {
     private String nameOwner;
     
     public String getNameOwner() {
-        return descriptionPost;
+        return nameOwner;
     }
 
     public void setNameOwner(String nameOwner) {
